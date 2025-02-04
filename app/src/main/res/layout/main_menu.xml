@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/game_bg1"
+    tools:context=".mainMenu">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:src="@drawable/title_game_title"
+        android:layout_marginTop="75dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/main_menu_play_button"
+            android:src="@drawable/button_play"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/main_menu_how_to_play_button"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/button_howtoplay"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/main_menu_ranking_button"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/button_ranking"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/main_menu_record_button"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/button_record"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/main_menu_logout_button"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/button_logout"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/main_menu_close_button"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/button_close"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
